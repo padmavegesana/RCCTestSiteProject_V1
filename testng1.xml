@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.RCCTest.Utilities.ExtentReport1"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.RCCTest.TestCases.BaseClass1" />
+			<class name="com.RCCTest.TestCases.TC_MyPortalTest_100" />
+			<class name="com.RCCTest.TestCases.TC_MyPortalDDTest_100" />
+			<class name="com.RCCTest.TestCases.TC_StudentPortal_101" />
+		</classes>
+	</test>
+</suite> 
